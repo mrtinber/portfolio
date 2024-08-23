@@ -7,7 +7,7 @@ export const Hero = () => {
         <h2 className="font-caption text-5xl font-bold text-primary">
           Kevin Bertin
         </h2>
-        <h3 className="text-3xl font-caption">Software Developper</h3>
+        <h3 className="text-3xl font-caption">Software Developer</h3>
         <p>
           Lorem ipsum dolor, sit amet consectetur adipisicing elit. Architecto
           neque dolores quisquam, unde, sed, voluptates rem iure aut corrupti

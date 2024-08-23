@@ -4,6 +4,7 @@ import { ReactIcon } from "../icons/ReactIcon";
 import { SassIcon } from "../icons/SassIcon";
 import { ReduxIcon } from "../icons/ReduxIcon";
 import { Code } from "../Code";
+import { TypeScriptIcon } from "../icons/TypeScriptIcon";
 
 export const Skills = () => {
     return (
@@ -21,24 +22,25 @@ export const Skills = () => {
                     <h3 className="scroll-m-20 text-2xl font-semibold tracking-tight">
                         React.js
                     </h3>
-                    <p className="text-sm text-muted-foreground">
-                        My main framework is <Code>React.js</Code>. Collaborate
-                        seamlessly with all the organization and hit your
-                        marketing goals every month with our marketing plan.
+                    <p className="text-sm text-muted-foreground text-justify">
+                        My main focus is on developing dynamic and interactive
+                        web applications using <Code>React.js</Code>. I excel in
+                        creating reusable components and managing complex UI
+                        logic.
                     </p>
                 </div>
                 <div className="flex flex-col gap-2 flex-1">
-                    <SassIcon
+                    <TypeScriptIcon
                         size={50}
                         className="animate-pulse w-full flex justify-center"
                     />
                     <h3 className="scroll-m-20 text-2xl font-semibold tracking-tight">
-                        Sass
+                        TypeScript
                     </h3>
-                    <p className="text-sm text-muted-foreground">
-                        Plan it, create it, launch it. Collaborate seamlessly
-                        with all the organization and hit your marketing goals
-                        every month with our marketing plan.
+                    <p className="text-sm text-muted-foreground text-justify">
+                        I enhance my React applications with{" "}
+                        <Code>TypeScript</Code> to ensure type safety and reduce
+                        bugs, resulting in more robust and reliable code.
                     </p>
                 </div>
                 <div className="flex flex-col gap-2 flex-1">
@@ -49,10 +51,11 @@ export const Skills = () => {
                     <h3 className="scroll-m-20 text-2xl font-semibold tracking-tight">
                         Redux
                     </h3>
-                    <p className="text-sm text-muted-foreground">
-                        Plan it, create it, launch it. Collaborate seamlessly
-                        with all the organization and hit your marketing goals
-                        every month with our marketing plan.
+                    <p className="text-sm text-muted-foreground text-justify">
+                        I specialize in state management using{" "}
+                        <Code>Redux</Code>, ensuring a seamless flow of data
+                        throughout the application while maintaining a clean and
+                        scalable codebase.
                     </p>
                 </div>
             </div>

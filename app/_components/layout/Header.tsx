@@ -5,6 +5,7 @@ import { cn } from "@/lib/utils";
 import { TwitterIcon } from "../icons/TwitterIcon";
 import { LinkedInIcon } from "../icons/LinkedInIcon";
 import { GithubIcon } from "../icons/GithubIcon";
+import { InstagramIcon } from "../icons/InstagramIcon";
 
 export const Header = () => {
   return (
@@ -21,10 +22,10 @@ export const Header = () => {
             <GithubIcon size={16} className="text-foreground" />
           </Link>
           <Link
-            href="https://twitter.com/mrtinber"
+            href="https://www.instagram.com/kevintinber/"
             className={cn(buttonVariants({ variant: "outline" }), "size-6 p-0")}
           >
-            <TwitterIcon size={16} className="text-foreground" />
+            <InstagramIcon size={16} className="text-foreground" />
           </Link>
           <Link
             href="https://www.linkedin.com/in/kevin-bertin/"

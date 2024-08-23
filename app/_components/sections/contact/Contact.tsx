@@ -23,16 +23,16 @@ export const Contact = () => {
           name="@gmail.com"
           image="https://media.licdn.com/dms/image/D4E03AQEDwBzXlq92jw/profile-displayphoto-shrink_400_400/0/1697701458445?e=1726704000&v=beta&t=GKYEZoRs1z5XrOXOzYEb_TWVpg0GYd7n4mj4crk-orQ"
           mediumImage="https://cdn1.iconfinder.com/data/icons/google-new-logos-1/32/gmail_new_logo-512.png"
-          description="Send me a message!"
+          description="Send me an email!"
           url="mailto:kevinbertinpro@gmail.com"
         />
         <ContactCard
           className="flex-1"
-          name="mrtinber"
+          name="@kevintinber"
           image="https://media.licdn.com/dms/image/D4E03AQEDwBzXlq92jw/profile-displayphoto-shrink_400_400/0/1697701458445?e=1726704000&v=beta&t=GKYEZoRs1z5XrOXOzYEb_TWVpg0GYd7n4mj4crk-orQ"
-          mediumImage="https://img.freepik.com/free-vector/new-2023-twitter-logo-x-icon-design_1017-45418.jpg?size=338&ext=jpg&ga=GA1.1.2008272138.1721088000&semt=ais_user"
-          description="Send me a message!"
-          url="https://twitter.com/mrtinber"
+          mediumImage="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Instagram_icon.png/2048px-Instagram_icon.png"
+          description="Send me a DM!"
+          url="https://www.instagram.com/kevintinber/"
         />
       </div>
     </Section>

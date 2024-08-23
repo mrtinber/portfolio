@@ -1,4 +1,4 @@
-import { ChefHat, Dumbbell, House, LucideIcon } from "lucide-react";
+import { ChefHat, Dumbbell, House, LucideIcon, Sparkles } from "lucide-react";
 
 export const SIDE_PROJECTS = [
   {
@@ -16,12 +16,18 @@ export const SIDE_PROJECTS = [
     title: "Les Petits Plats",
     description: "Un site de cuisine",
   },
+  {
+    Logo: Sparkles,
+    title: "Disney+ Clone",
+    description: "Un site de Disney",
+  },
 ];
 
 export type SideProjectProps = {
   Logo: LucideIcon;
   title: string;
   description: string;
+  url?: string;
 };
 
 export const SideProject = (props: SideProjectProps) => {
