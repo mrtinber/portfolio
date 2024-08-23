@@ -7,11 +7,11 @@ import { Work, WORKS } from "./Work";
 export const Content = () => {
   return (
     <Section className="flex max-md:flex-col items-start gap-4">
-      <div className="flex-[3] flex flex-col min-h-[272px]">
+      <div className="flex-[3] flex flex-col">
         <Card className="flex-1 p-4 flex flex-col gap-2 w-full h-full">
           <p className="text-lg text-muted-foreground">Side projects</p>
 
-          <div className="flex flex-col justify-between h-full flex-grow">
+          <div className="flex flex-col justify-between h-full gap-2 flex-grow">
             {SIDE_PROJECTS.map((project, index) => (
               <SideProject
                 key={index}
@@ -23,7 +23,7 @@ export const Content = () => {
           </div>
         </Card>
       </div>
-      <div className="flex-[2] flex flex-col gap-4">
+      <div className="flex-[2] flex flex-col gap-4 min-h-[429px]">
         <Card className="flex-1 p-4 flex flex-col gap-2">
           <p className="text-lg text-muted-foreground">Work</p>
 

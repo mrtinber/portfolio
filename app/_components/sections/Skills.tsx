@@ -1,7 +1,6 @@
 import { Badge } from "@/components/ui/badge";
 import { Section } from "../layout/Section";
 import { ReactIcon } from "../icons/ReactIcon";
-import { SassIcon } from "../icons/SassIcon";
 import { ReduxIcon } from "../icons/ReduxIcon";
 import { Code } from "../Code";
 import { TypeScriptIcon } from "../icons/TypeScriptIcon";
@@ -10,10 +9,10 @@ export const Skills = () => {
     return (
         <Section className="flex flex-col items-start gap-4">
             <Badge variant={"outline"}>Skills</Badge>
-            <h2 className="scroll-m-20 pb-2 text-3xl font-semibold tracking-tight first:mt-0">
+            <h2 className="scroll-m-20 pb-4 text-3xl font-semibold tracking-tight first:mt-0">
                 I love working on...
             </h2>
-            <div className="flex max-md:flex-col gap-4">
+            <div className="flex max-md:flex-col gap-8">
                 <div className="flex flex-col gap-2 flex-1">
                     <ReactIcon
                         size={50}

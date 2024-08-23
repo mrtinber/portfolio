@@ -5,5 +5,5 @@ export const Code = ({
   className,
   ...props
 }: ComponentPropsWithoutRef<"span">) => {
-  return <span className={cn("bg-accent/30 border-accent p-1 font-mono", className)} {...props} />;
+  return <span className={cn("bg-accent/30 border-accent border rounded-sm p-1 font-mono", className)} {...props} />;
 };

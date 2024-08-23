@@ -11,8 +11,6 @@ export default function Home() {
     <main>
       <Header />
 
-      <Spacing />
-
       <Hero />
 
       <Spacing />
