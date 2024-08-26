@@ -4,28 +4,28 @@ import { Code } from "../../Code";
 
 export const SIDE_PROJECTS = [
     {
-        Logo: House,
-        title: "Kasa",
+        Logo: Sparkles,
+        title: "Disney+ Clone",
         description:
-            <span>A housing website that lists available accommodations. <br/> <Code>React Router</Code>, <Code>Sass</Code>, <Code>JSON</Code>, <Code>Node.js</Code></span>,
+            <span>A clone of the popular Disney+ streaming site. <br/> <Code>React</Code>, <Code>React Router</Code>, <Code>Tailwind CSS</Code>, <Code>TypeScript</Code></span>,
     },
     {
         Logo: Dumbbell,
         title: "Sportify",
         description:
-            <span>An analytics dashboard featuring various types of charts. <br/> <Code>Recharts</Code>, <Code>TypeScript</Code></span>,
+            <span>An analytics dashboard featuring various types of charts. <br/> <Code>React</Code>, <Code>Recharts</Code>, <Code>TypeScript</Code></span>,
+    },
+    {
+        Logo: House,
+        title: "Kasa",
+        description:
+            <span>A housing website that lists available accommodations. <br/> <Code>React</Code>, <Code>React Router</Code>, <Code>Sass</Code>, <Code>JSON</Code>, <Code>Node.js</Code></span>,
     },
     {
         Logo: ChefHat,
         title: "Les Petits Plats",
         description:
-            <span>A recipe website with a complex research algorithm. <br/><Code>JavaScript</Code>, <Code>Tailwind CSS</Code></span>,
-    },
-    {
-        Logo: Sparkles,
-        title: "Disney+ Clone",
-        description:
-            <span>A clone of the popular Disney+ streaming site. <br/> <Code>React Router</Code>, <Code>Tailwind CSS</Code>, <Code>TypeScript</Code></span>,
+            <span>A recipe website with a complex research algorithm. <br/><Code>JavaScript</Code>, <Code>Tailwind CSS</Code>, <Code>HTML</Code></span>,
     },
 ];
 
