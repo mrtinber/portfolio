@@ -18,6 +18,7 @@ export const Content = () => {
                 Logo={project.Logo}
                 title={project.title}
                 description={project.description}
+                url={project.url}
               />
             ))}
           </div>
