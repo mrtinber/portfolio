@@ -23,8 +23,9 @@ export const Skills = () => {
                     </h3>
                     <p className="text-sm text-muted-foreground text-justify">
                         My main focus is on developing dynamic and interactive
-                        web applications using <Code>React.js</Code>. I excel in
-                        creating reusable components and managing complex UI
+                        web applications using <Code>React.js</Code>, mainly with{" "}
+                        <Code>Vite</Code> and <Code>Next.js</Code>. I enjoy
+                        building reusable components and managing complex UI
                         logic.
                     </p>
                 </div>

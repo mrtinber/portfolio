@@ -11,8 +11,8 @@ export const Header = () => {
   return (
     <header className="sticky top-0">
       <Section className="flex items-baseline py-4 gap-2">
-        <h1 className="text-lg font-bold text-primary">kevintinber.com</h1>
-        <p className="text-lg text-muted">Software Engineer</p>
+        <h1 className="text-lg font-bold text-primary">mrtinber.github.io/portfolio</h1>
+        <p className="text-lg text-muted-foreground">Software Engineer</p>
         <div className="flex-1" />
         <ul className="flex items-center gap-2">
           <Link

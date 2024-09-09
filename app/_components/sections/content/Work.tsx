@@ -17,14 +17,14 @@ export const WORKS = [
     date: "2019 - 2020",
     freelance: false,
   },
-  {
-    image:
-      "https://www.pngkey.com/png/full/228-2289979_master-ball-pixel-art-pokemon-pokeball.png",
-    title: "Nintendo",
-    role: "Pokemon trainer",
-    date: "1999 - 2012",
-    freelance: true,
-  },
+  // {
+  //   image:
+  //     "https://www.pngkey.com/png/full/228-2289979_master-ball-pixel-art-pokemon-pokeball.png",
+  //   title: "Nintendo",
+  //   role: "Pokemon trainer",
+  //   date: "1999 - 2012",
+  //   freelance: true,
+  // },
 ];
 
 type WorkProps = {

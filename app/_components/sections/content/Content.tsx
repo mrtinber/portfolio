@@ -26,7 +26,7 @@ export const Content = () => {
                     </div>
                 </Card>
             </div>
-            <div className="flex-[2] flex flex-col gap-4 min-h-[429px]">
+            <div className="flex-[2] flex flex-col gap-4">
                 <Card className="flex-1 p-4 flex flex-col gap-2">
                     <p className="text-lg text-muted-foreground">Work</p>
 
