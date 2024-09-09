@@ -50,8 +50,8 @@ export const Hero = () => {
             </div>
             <div className="flex-[2] flex justify-center">
                 <img
-                    src="https://media.licdn.com/dms/image/D4E03AQEDwBzXlq92jw/profile-displayphoto-shrink_400_400/0/1697701458445?e=1726704000&v=beta&t=GKYEZoRs1z5XrOXOzYEb_TWVpg0GYd7n4mj4crk-orQ"
-                    // src="./JDRvXE5N_400x400.png"
+                    // src="https://media.licdn.com/dms/image/D4E03AQEDwBzXlq92jw/profile-displayphoto-shrink_400_400/0/1697701458445?e=1726704000&v=beta&t=GKYEZoRs1z5XrOXOzYEb_TWVpg0GYd7n4mj4crk-orQ"
+                    src="./profilepic1.jpg"
                     alt="Ma photo de profil"
                     className="w-full h-auto max-w-xs max-md:w-56 rounded-full"
                 />
