@@ -52,8 +52,8 @@ export const Skills = () => {
                         Redux
                     </h3>
                     <p className="text-sm text-muted-foreground text-justify">
-                        I specialize in state management using{" "}
-                        <Code>Redux</Code>, ensuring a seamless flow of data
+                        I like using <Code>Redux</Code> for state management,
+                        ensuring a seamless flow of data
                         throughout the application while maintaining a clean and
                         scalable codebase.
                     </p>

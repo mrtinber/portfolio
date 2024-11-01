@@ -1,9 +1,16 @@
-import { ChefHat, Dumbbell, House, LucideIcon, Sparkles } from "lucide-react";
+import { ChefHat, Dumbbell, House, LucideIcon, Sparkles, ClipboardCheck } from "lucide-react";
 import { ReactNode } from "react";
 import { Code } from "../../Code";
 import Link from "next/link";
 
 export const SIDE_PROJECTS = [
+    {
+        Logo: ClipboardCheck,
+        title: "TuDou",
+        url: 'https://tudou-steel.vercel.app/',
+        description:
+            <span>A to-do list app linked to a database to follow your tasks during the week. <br/> <Code>React</Code>, <Code>Prisma</Code>, <Code>Supabase</Code>, <Code>Tailwind CSS</Code>, <Code>TypeScript</Code></span>,
+    },
     {
         Logo: Sparkles,
         title: "Disney+ Clone",
