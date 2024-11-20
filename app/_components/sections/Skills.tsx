@@ -13,7 +13,7 @@ export const Skills = () => {
                 I love working on...
             </h2>
             <div className="flex max-md:flex-col gap-8">
-                <div className="flex flex-col gap-2 flex-1">
+                <div className="flex flex-col gap-4 flex-1">
                     <ReactIcon
                         size={50}
                         className="animate-pulse w-full flex justify-center"
@@ -29,7 +29,7 @@ export const Skills = () => {
                         logic.
                     </p>
                 </div>
-                <div className="flex flex-col gap-2 flex-1">
+                <div className="flex flex-col gap-4 flex-1">
                     <TypeScriptIcon
                         size={50}
                         className="animate-pulse w-full flex justify-center"
@@ -43,7 +43,7 @@ export const Skills = () => {
                         bugs, resulting in more robust and reliable code.
                     </p>
                 </div>
-                <div className="flex flex-col gap-2 flex-1">
+                <div className="flex flex-col gap-4 flex-1">
                     <ReduxIcon
                         size={50}
                         className="animate-pulse w-full flex justify-center"

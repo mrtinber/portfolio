@@ -13,7 +13,7 @@ export const Content = () => {
                         Side projects
                     </p>
 
-                    <div className="flex flex-col justify-between h-full gap-2 flex-grow">
+                    <div className="flex flex-col justify-between h-full gap-4 flex-grow">
                         {SIDE_PROJECTS.map((project, index) => (
                             <SideProject
                                 key={index}

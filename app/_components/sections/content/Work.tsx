@@ -3,6 +3,15 @@ import { Badge } from "@/components/ui/badge";
 export const WORKS = [
   {
     image:
+    "../teachthere-plane.svg",
+    title: "TeachThere",
+    role: "Web Designer & Frontend Developer",
+    date: "Nov. 2024",
+    freelance: true,
+    url:"https://www.teachtherechina.com/"
+  },
+  {
+    image:
     "https://www.pro-voyages.com/storage/app/uploads/public/5a2/dad/0ba/5a2dad0bac6bc503107894.png",
     title: "Alliance Française of Shanghai",
     role: "French Teacher",
@@ -33,11 +42,12 @@ type WorkProps = {
   role: string;
   date: string;
   freelance?: boolean;
+  url?: string;
 };
 
 export const Work = (props: WorkProps) => {
   return (
-    <div className="inline-flex items-center justify-between gap-4 hover:bg-accent/50 transition-colors p-1 rounded">
+    <a href={props.url} target="_blank" className="inline-flex items-center justify-between gap-4 hover:bg-accent/50 transition-colors p-1 rounded-sm">
       <div className="flex items-center gap-4">
         <img
           src={props.image}
@@ -55,6 +65,6 @@ export const Work = (props: WorkProps) => {
       <div>
         <p className="text-xs text-end text-muted-foreground text-nowrap">{props.date}</p>
       </div>
-    </div>
+    </a>
   );
 };
