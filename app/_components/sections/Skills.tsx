@@ -4,6 +4,7 @@ import { ReactIcon } from "../icons/ReactIcon";
 import { ReduxIcon } from "../icons/ReduxIcon";
 import { Code } from "../Code";
 import { TypeScriptIcon } from "../icons/TypeScriptIcon";
+import { TailwindIcon } from "../icons/TailwindIcon";
 
 export const Skills = () => {
     return (
@@ -23,8 +24,8 @@ export const Skills = () => {
                     </h3>
                     <p className="text-sm text-muted-foreground text-justify">
                         My main focus is on developing dynamic and interactive
-                        web applications using <Code>React.js</Code>, mainly with{" "}
-                        <Code>Vite</Code> and <Code>Next.js</Code>. I enjoy
+                        web applications using <Code>React.js</Code>, mainly
+                        with <Code>Vite</Code> and <Code>Next.js</Code>. I enjoy
                         building reusable components and managing complex UI
                         logic.
                     </p>
@@ -44,18 +45,18 @@ export const Skills = () => {
                     </p>
                 </div>
                 <div className="flex flex-col gap-4 flex-1">
-                    <ReduxIcon
+                    <TailwindIcon
                         size={50}
                         className="animate-pulse w-full flex justify-center"
                     />
                     <h3 className="scroll-m-20 text-2xl font-semibold tracking-tight">
-                        Redux
+                        Tailwind
                     </h3>
                     <p className="text-sm text-muted-foreground text-justify">
-                        I like using <Code>Redux</Code> for state management,
-                        ensuring a seamless flow of data
-                        throughout the application while maintaining a clean and
-                        scalable codebase.
+                        I enjoy using <Code>Tailwind CSS</Code> to design
+                        intuitive and responsive user interfaces quickly,
+                        ensuring a cohesive and visually appealing design system
+                        while speeding up the development process.
                     </p>
                 </div>
             </div>
