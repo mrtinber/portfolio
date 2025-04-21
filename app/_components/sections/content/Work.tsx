@@ -3,6 +3,15 @@ import { Badge } from "@/components/ui/badge";
 export const WORKS = [
   {
     image:
+    "https://img.icons8.com/fluent-systems-filled/200/FFFFFF/nextjs.png",
+    title: "Rekkio Musique",
+    role: "Designer & Frontend Developer",
+    date: "Feb. 2025 - Apr. 2025",
+    freelance: true,
+    url:"https://www.rekkiomusique.fr/"
+  },
+  {
+    image:
     "../teachthere-plane.svg",
     title: "TeachThere",
     role: "Web Designer & Frontend Developer",
@@ -15,7 +24,7 @@ export const WORKS = [
     "https://www.pro-voyages.com/storage/app/uploads/public/5a2/dad/0ba/5a2dad0bac6bc503107894.png",
     title: "Alliance Française of Shanghai",
     role: "French Teacher",
-    date: "2020 - Now",
+    date: "2020 - 2025",
     freelance: false,
   },
   {
